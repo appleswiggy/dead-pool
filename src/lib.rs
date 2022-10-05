@@ -1,7 +1,7 @@
 //! # Dead-Pool
 //!
 //! `dead-pool` provides a pool of threads waiting for a job.
-//! Jobs are sent via `execute` method defined on `ThreadPool`.
+//! Jobs can be sent via `execute` method defined on `ThreadPool`.
 pub use threadpool::ThreadPool;
 
 mod threadpool;
